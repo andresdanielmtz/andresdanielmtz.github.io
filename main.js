@@ -1,6 +1,7 @@
 // Does that even matter?
 console.log("It works");
 
+
 var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
@@ -24,7 +25,7 @@ TxtType.prototype.tick = function() {
     this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
     var that = this;
-    var delta = 200 - Math.random() * 100;
+    var delta = 150 - Math.random() * 100;
 
     if (this.isDeleting) { delta /= 2; }
 
@@ -57,3 +58,4 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
 };
+
