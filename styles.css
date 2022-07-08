@@ -1,3 +1,6 @@
+body {
+    background:"#3D314A";
+}
 
 h1 a {
     color: white; 
@@ -12,8 +15,7 @@ a, a p{
     font-weight: 100; 
 }
 .links {
-    position: relative;
-    left: 20px;     
+    position: relative;   
 }
 p {
     font-family: 'Lato', sans-serif;
