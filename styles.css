@@ -1,25 +1,73 @@
-h2 {
-    font-family: Lato, sans-serif;
+
+h1 a {
+    color: white; 
+    font-family: "Lato", "Do Hyeon", sans-serif;
+    font-weight:900; 
+    text-align: justify; text-align-last: center;
 }
 
-a {
-    font-family:Lato; 
+a, a p{
+    color: #96705B; 
+    font-family: "Lato"; 
+    font-weight: 100; 
 }
 .links {
     position: relative;
     left: 20px;     
 }
 p {
-    font-family: Roboto, sans-serif;
+    font-family: 'Lato', sans-serif;
+    text-align: justify; text-align-last: center;
 }
 /* This is just a test.  */ 
-#cat_img { 
+#resize_cat { 
+    display:block; 
+    text-align: center;
+    position: relative;
+    margin-top: 6%; 
+}
+#resize_cat img { 
+    max-height: 200px;
+    max-width: 200px;
+    object-fit: cover;
+   
+}
+
+/* #cat_img { 
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%; 
-
+    max-width: 15%;
     height: auto;
-    max-width: 20%;
 
+} */ 
+* { 
+    text-decoration: none;
+    color: white;
+    text-align: justify; text-align-last: center;
 }
+
+
+/* typewritter effect test */ 
+.typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
