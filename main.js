@@ -1,6 +1,4 @@
-// Does that even matter?
-console.log("It works");
-
+console.log("Hi! :D")
 
 var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
