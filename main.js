@@ -1,4 +1,4 @@
-console.log("Hi! :D")
+console.log("If this works, hi! :D")
 
 var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
@@ -56,4 +56,3 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
 };
-

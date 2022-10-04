@@ -70,7 +70,6 @@ p {
     text-align: justify; text-align-last: center;
 }
 
-
 /* typewritter effect test */ 
 .typewriter h1 {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
