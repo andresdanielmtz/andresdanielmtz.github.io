@@ -8,7 +8,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin = "true"/> 
   <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&family=Lato:ital,wght@0,400;0,700;0,900;1,100&display=swap" rel="stylesheet"></link>
     <App />
   </React.StrictMode>
