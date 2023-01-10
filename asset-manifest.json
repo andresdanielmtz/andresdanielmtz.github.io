@@ -1,16 +1,16 @@
 {
-  "main.css": "/static/css/main.26eb79c1.chunk.css",
-  "main.js": "/static/js/main.d1217d7f.chunk.js",
-  "main.js.map": "/static/js/main.d1217d7f.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.629448d9.js",
-  "runtime~main.js.map": "/static/js/runtime~main.629448d9.js.map",
-  "static/js/2.49cb00a6.chunk.js": "/static/js/2.49cb00a6.chunk.js",
-  "static/js/2.49cb00a6.chunk.js.map": "/static/js/2.49cb00a6.chunk.js.map",
-  "static/js/3.d7f7bd74.chunk.js": "/static/js/3.d7f7bd74.chunk.js",
-  "static/js/3.d7f7bd74.chunk.js.map": "/static/js/3.d7f7bd74.chunk.js.map",
+  "main.css": "/static/css/main.c7110be4.chunk.css",
+  "main.js": "/static/js/main.87b0586f.chunk.js",
+  "main.js.map": "/static/js/main.87b0586f.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.41e93866.js",
+  "runtime~main.js.map": "/static/js/runtime~main.41e93866.js.map",
+  "static/js/2.cd28b942.chunk.js": "/static/js/2.cd28b942.chunk.js",
+  "static/js/2.cd28b942.chunk.js.map": "/static/js/2.cd28b942.chunk.js.map",
+  "static/js/3.249b4070.chunk.js": "/static/js/3.249b4070.chunk.js",
+  "static/js/3.249b4070.chunk.js.map": "/static/js/3.249b4070.chunk.js.map",
   "index.html": "/index.html",
-  "precache-manifest.88f791f28b833f78756c931566cbcde5.js": "/precache-manifest.88f791f28b833f78756c931566cbcde5.js",
+  "precache-manifest.c63ec7d39ab70b1ad9693f18a5d35a90.js": "/precache-manifest.c63ec7d39ab70b1ad9693f18a5d35a90.js",
   "service-worker.js": "/service-worker.js",
-  "static/css/main.26eb79c1.chunk.css.map": "/static/css/main.26eb79c1.chunk.css.map",
-  "static/media/cat_transparent.gif": "/static/media/cat_transparent.26bbd123.gif"
+  "static/css/main.c7110be4.chunk.css.map": "/static/css/main.c7110be4.chunk.css.map",
+  "static/media/Home.css": "/static/media/NeueMontreal-Bold.821f2668.otf"
 }
