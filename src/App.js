@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import { Home } from './Home.js';
 import { 
@@ -10,7 +11,7 @@ import {
 import { AboutMyself } from './components/AboutMyself/AboutMyself.js';
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import { motion } from "framer-motion";
+import {AnimatePresence, motion} from "framer-motion/dist/framer-motion";
 
 
 const PageLayout = ({ children }) => children;
