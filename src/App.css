@@ -1,97 +1,75 @@
+Body { 
+  background-color: #0c0c0c; /* 0c0c0c */
+  color: white; 
+  font-family: 'Roboto', sans-serif;
+}
+
+.app-frame {
+  position:fixed;
+  padding:0;
+  margin:1em;
+
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+}
+
 .App {
   text-align: center;
-  -ms-overflow-style: none;  /* Internet Explorer 10+ */
-  scrollbar-width: none;
-  
-}
-.App::-webkit-scrollbar {
-  display:none;
-}
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
 
-.App-Selector {  /* How to make a proper navigation bar */
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  font-size: .5em;
-  color: white;
-  font-family: "Lato", sans-serif; 
-  font-weight: 100; 
-  background-color: #404446;
-  height: 10vh;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  z-index: 1;
-  padding: 0 10px;
-}
-
-.App-Selector a {
-  color: #aa92e2;
-}
-
-.App-Selector a:hover {
-  color: #b2ccd9;
-}
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #404446;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  font-family: "Lato", sans-serif; 
-  font-weight: 100; 
-
+.app-header {
+  z-index: 3;
 }
 
 .App-link {
-  color: #aa92e2;
+  color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: HelveticaNow;
+  src:url("font/HelveticaNow.ttf");
 }
 
-h3 { 
-  font-family: "Lato", "Do Hyeon", sans-serif;
-  font-weight: 900;
+@font-face {
+  font-family: NeueMontreal;
+  src:url("font/NeueMontreal-Bold.otf" );
+}
+
+
+.app-content {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  text-align: left;
+  margin: 2em;
+  font-family: "NeueMontreal", sans-serif;
+  z-index: 1; 
+  text-decoration: none;
+}
+
+a {
   color: white; 
-
+  text-decoration: none;
+  transition: color 0.5s;
 }
 
-.App-body { 
-  background-color: #b2ccd9;
+a:hover {
 
+  color: #7269f1; 
 }
 
-.App-Description {
-  font-family: "Lato", "Do Hyeon", sans-serif;
-  font-weight: 100;
-  color: white; 
-  font-size: 0.7em;
-  text-align: center;
-  padding: 0 10px;
-}
-
-/* Make cat (with cat class), smaller */
-.cat {
-  width: 10em
+.particles-bg { 
+  width: 100%; 
+  height: 98.5%;
+  bottom: 1em;
+  top: 0.2em;
+  position: absolute;
+  z-index: -1;
+  opacity: 10%;
 }

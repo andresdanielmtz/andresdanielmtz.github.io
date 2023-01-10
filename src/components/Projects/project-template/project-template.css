@@ -1,0 +1,60 @@
+.project-box { 
+    width: 650px; 
+    height: 200px;
+
+    background-color: rgb(27, 27, 27, .75);
+    
+    border-radius: 2px;
+    border-color: black;
+    border-style: solid;
+
+
+    
+    color: white;
+
+}
+
+@font-face {
+    font-family: HelveticaNow;
+    src:url("src/font/HelveticaNow.ttf");
+  }
+
+@font-face {
+font-family: NeueMontreal;
+src:url("src/font/NeueMontreal-Bold.otf" );
+}
+
+.project-box-image { 
+    width: 200px; 
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+
+
+    background-size: cover;
+
+
+}
+
+.project-box-title {
+    width: 500px; 
+    height: 50px; 
+    
+    position: absolute;
+    top: 30px; 
+    left: 230px;
+
+    font-family: 'NeueMontreal', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+.project-box-description {
+    font-size: 1em;
+    
+    position: absolute; 
+    top: 100px;
+    left: 230px; 
+    font-family: 'Roboto', sans-serif;
+}

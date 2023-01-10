@@ -1,0 +1,52 @@
+Body { 
+  color: white;
+}
+
+/* Change color when selecting text */
+::selection {
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  
+  @font-face {
+    font-family: HelveticaNow;
+    src:url("font/HelveticaNow.ttf");
+  }
+  
+  @font-face {
+    font-family: NeueMontreal;
+    src:url("font/NeueMontreal-Bold.otf" );
+  }
+  .app-title { 
+    color: white; 
+    margin: 1em;
+    text-align: left;
+    background:transparent;
+  }
+  
+  .app-title-text { 
+    font-family: 'NeueMontreal', sans-serif;
+    font-weight: 900;
+    font-size: 4.2em;
+    z-index: 2;
+    background:transparent;
+
+
+  }
+  
+  .app-title-subtext { 
+    font-size: 1em;
+    text-align: justify;
+    text-justify: inter-character;
+    font-weight: 300;
+
+  }
+  
+  .app-content {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    text-align: left;
+    margin: 2em;
+  }

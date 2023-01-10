@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;
+  
+}
+.App::-webkit-scrollbar {
+  display:none;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-Selector {  /* How to make a proper navigation bar */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: .5em;
+  color: white;
+  font-family: "Lato", sans-serif; 
+  font-weight: 100; 
+  background-color: #404446;
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  padding: 0 10px;
+}
+
+.App-Selector a {
+  color: #aa92e2;
+}
+
+.App-Selector a:hover {
+  color: #b2ccd9;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #404446;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: "Lato", sans-serif; 
+  font-weight: 100; 
+
+}
+
+.App-link {
+  color: #aa92e2;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h3 { 
+  font-family: "Lato", "Do Hyeon", sans-serif;
+  font-weight: 900;
+  color: white; 
+
+}
+
+.App-body { 
+  background-color: #b2ccd9;
+
+}
+
+.App-Description {
+  font-family: "Lato", "Do Hyeon", sans-serif;
+  font-weight: 100;
+  color: white; 
+  font-size: 0.7em;
+  text-align: center;
+  padding: 0 10px;
+}
+
+/* Make cat (with cat class), smaller */
+.cat {
+  width: 10em
+}
