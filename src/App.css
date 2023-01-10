@@ -56,12 +56,15 @@ Body {
 a {
   color: white; 
   text-decoration: none;
-  transition: color 0.5s;
+  transition: background-color 0.5s;
+  transition: color 0.7s;
 }
 
 a:hover {
-
-  color: #7269f1; 
+  /* Look as selected */
+  /* background-color: #ffffff; */
+  color: #0c0c0c; 
+  background-color: #ffffff
 }
 
 .particles-bg { 
