@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "00009f28a81b0044b56e",
-    "url": "/static/css/main.9aba6778.chunk.css"
+    "revision": "b25fe2556663bcc77dfd",
+    "url": "/static/css/main.185e2447.chunk.css"
   },
   {
-    "revision": "00009f28a81b0044b56e",
+    "revision": "b25fe2556663bcc77dfd",
     "url": "/static/js/main.87b0586f.chunk.js"
   },
   {
@@ -20,15 +20,15 @@ self.__precacheManifest = [
     "url": "/static/js/3.249b4070.chunk.js"
   },
   {
-    "revision": "96976e7e3b88662d3531fb76f7f576a7",
-    "url": "/static/media/HelveticaNow.96976e7e.ttf"
-  },
-  {
     "revision": "821f26682638deba9a0945dc329a294a",
     "url": "/static/media/NeueMontreal-Bold.821f2668.otf"
   },
   {
-    "revision": "a3d2f4fdc6a1ad6ad0e77651cf3c5415",
+    "revision": "96976e7e3b88662d3531fb76f7f576a7",
+    "url": "/static/media/HelveticaNow.96976e7e.ttf"
+  },
+  {
+    "revision": "87d2f696eb21bef6eb0b8cc5e1312c88",
     "url": "/index.html"
   }
 ];
