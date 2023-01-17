@@ -1,0 +1,38 @@
+@font-face {
+    font-family: NeueMontreal;
+    src:url("/src/font/NeueMontreal-Bold.otf" );
+  }
+
+.app-projects {
+    border-bottom: 1px solid #ccc;
+    overflow-y: auto;
+    overflow-x:hidden;
+    max-height: 100vh;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+.app-projects::-webkit-scrollbar {
+    display: none;
+}
+.app-projects-title { 
+    font-family: 'NeueMontreal', sans-serif;
+    font-weight: 900;
+    font-size: 4.2em;
+    z-index: 0;
+    background:transparent;
+
+    position: relative;
+    margin-bottom: 0.25em;
+    margin-left: 0.25em;
+
+    text-align: left;
+
+    margin-bottom: 0.3em;
+}
+
+.app-projects-content-box {
+    display: flex;
+    flex-wrap: wrap;
+    height: 49em; 
+}

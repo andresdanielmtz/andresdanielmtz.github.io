@@ -1,22 +1,24 @@
 import React from "react";
-import { resolvePath } from "react-router-dom";
 import "./project-template.css";
 
-const ProjectTemplate = () => {
-    let dir = "../src/components/Projects/project-template/"
+const ProjectTemplate = (props) => {
+
+    let relativeDir = "src/components/Projects/project-template/project-template.js"; 
 
     return (
         <div className = "project-box">
             <div className = "project-box-image">
-                
+                Proyecto
             </div> 
             
-            <div className = "project-box-title">
-                Posición Software Engineer Junior <br /> @ Netflix USA <br />
-            </div>
-  
-            <div className = "project-box-description">
-                rigo sexo
+            <div className = "project-box-text"> 
+                <div className = "project-box-title">
+                    {props.title}
+                </div>
+    
+                <div className = "project-box-description">
+                    {props.description}
+                </div>
             </div>
         </div> 
     );
