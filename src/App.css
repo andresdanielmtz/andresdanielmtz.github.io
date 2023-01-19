@@ -1,19 +1,20 @@
-Body { 
-  background-color: #0c0c0c; /* 0c0c0c */
-  color: white; 
+Body {
+  background-color: #15181a;
+  /* 0c0c0c */
+  color: white;
   font-family: 'Roboto', sans-serif;
 }
 
 .app-frame {
-  position:fixed;
-  padding:0;
-  margin:1em;
+  position: fixed;
+  padding: 0;
+  margin: 1em;
 
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
-  
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
   border-color: white;
   border-style: solid;
   border-width: 0.01em;
@@ -33,12 +34,12 @@ Body {
 
 @font-face {
   font-family: HelveticaNow;
-  src:url("font/HelveticaNow.ttf");
+  src: url("font/HelveticaNow.ttf");
 }
 
 @font-face {
   font-family: NeueMontreal;
-  src:url("font/NeueMontreal-Bold.otf" );
+  src: url("font/NeueMontreal-Bold.otf");
 }
 
 
@@ -46,15 +47,15 @@ Body {
   position: fixed;
   bottom: 0;
   right: 0;
-  text-align: left;
+  text-align: right;
   margin: 2em;
   font-family: "NeueMontreal", sans-serif;
-  z-index: 1; 
+  z-index: 1;
   text-decoration: none;
 }
 
 a {
-  color: white; 
+  color: white;
   text-decoration: none;
   transition: background-color 0.5s;
   transition: color 0.7s;
@@ -63,13 +64,13 @@ a {
 a:hover {
   /* Look as selected */
   /* background-color: #ffffff; */
-  color: #0c0c0c; 
+  color: #15181a;
   background-color: #ffffff
 }
 
-.particles-bg { 
-  width: 100%; 
-  height: 98.5%;
+.particles-bg {
+  width: 100%;
+  height: 99%;
   bottom: 1em;
   top: 0.2em;
   position: absolute;
