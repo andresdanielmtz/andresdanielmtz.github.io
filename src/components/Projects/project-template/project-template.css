@@ -1,6 +1,6 @@
 .project-box { 
-    width: 750px; 
-    height: 250px;
+    width: 50em; 
+    height: 15em;
 
     background-color: rgba(255, 255, 255, 0.1);
     
@@ -28,15 +28,15 @@ src:url("/src/font/NeueMontreal-Bold.otf" );
 }
 
 .project-box-image { 
-    width: 250px; 
-    height: 250px;
+    width: 16.5em; 
+    height: 16.5em;
     float: left;
 
 }
 
 .project-box-img { 
-    width: 250px; 
-    height: 250px;
+    width: 15em; 
+    height: 15em;
     float: left;
     background-size: cover;
     /* Maintain image in div*/
@@ -45,12 +45,13 @@ src:url("/src/font/NeueMontreal-Bold.otf" );
     background-size: cover;
 }
 .project-box-content { 
-    margin-left: 16.5em; 
-    margin-right: 2em;
+    margin-left: 15em; 
+    margin-right: 5em;
+    
 }
 .project-box-title {
-    width: 500px; 
-    height: 50px; 
+    width: 15em; 
+    height: 25%; 
     
     position: relative;
     margin-top: 0.4em;
@@ -58,7 +59,7 @@ src:url("/src/font/NeueMontreal-Bold.otf" );
 
 
     font-family: 'NeueMontreal', sans-serif;
-    font-size: 1.75em;
+    font-size: 1.2em;
     font-weight: bold;
 
 }
