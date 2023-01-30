@@ -1,52 +1,84 @@
-Body { 
+Body {
   color: white;
 }
 
 /* Change color when selecting text */
 ::selection {
-    background-color: #ffffff;
-    color: #50549a;
-  }
-
-  
-  @font-face {
-    font-family: HelveticaNow;
-    src:url("font/HelveticaNow.ttf");
-  }
-  
-  @font-face {
-    font-family: NeueMontreal;
-    src:url("font/NeueMontreal-Bold.otf" );
-  }
-  .app-title { 
-    color: white; 
-    margin: 1em;
-    text-align: left;
-    background:transparent;
-  }
-  
-  .app-title-text { 
-    font-family: 'NeueMontreal', sans-serif;
-    font-weight: 900;
-    font-size: 4.2em;
-    z-index: 2;
-    background:transparent;
+  background-color: #ffffff;
+  color: #50549a;
+}
 
 
-  }
-  
-  .app-title-subtext { 
-    font-size: 1em;
-    text-align: justify;
-    text-justify: inter-character;
-    font-weight: 300;
+@font-face {
+  font-family: HelveticaNow;
+  src: url("font/HelveticaNow.ttf");
+}
 
-  }
-  
-  .app-content {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    text-align: left;
-    margin: 2em;
-  }
+@font-face {
+  font-family: NeueMontreal;
+  src: url("font/NeueMontreal-Bold.otf");
+}
+
+.app-title {
+  color: white;
+  margin: 1em;
+  text-align: left;
+  background: transparent;
+}
+
+.app-title-text {
+  font-family: 'NeueMontreal', sans-serif;
+  font-weight: 900;
+  font-size: 4.2em;
+  z-index: 2;
+  background: transparent;
+
+
+}
+
+.app-title-subtext {
+  font-size: 1em;
+  text-align: justify;
+  text-justify: inter-character;
+  font-weight: 300;
+
+}
+
+.app-content {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  text-align: left;
+  margin: 2em;
+}
+
+#contact-list {
+  position: absolute;
+  bottom: 0; 
+  margin-left: -2em;
+  margin-bottom: 1em;
+  list-style: none; 
+}
+
+.contact-icons { 
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%); /* White Text */
+  transition: 2s;
+  height: 2em;
+}
+
+.contact-icons:hover { 
+  filter: invert(69%) sepia(66%) hue-rotate(161deg) brightness(94%) contrast(102%);
+  transition: 2s;
+}
+
+.contact-link{
+  text-decoration: none;
+  color: white;
+}
+
+.contact-link a { 
+  text-decoration: none;
+}
+.contact-link a:hover { 
+  background-color: rgba(159, 187, 187, 0);
+}

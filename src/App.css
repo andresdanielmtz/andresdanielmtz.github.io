@@ -54,14 +54,17 @@ Body {
   text-decoration: none;
 }
 
-a {
-  color: white;
+a { 
+  color: #ffffff; 
   text-decoration: none;
-  transition: background-color 0.5s;
   transition: color 0.7s;
 }
 
 a:hover {
+  color: #5493db;
+}
+
+app-content-text a:hover {
   /* Look as selected */
   /* background-color: #ffffff; */
   color: #15181a;

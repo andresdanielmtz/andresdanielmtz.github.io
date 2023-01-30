@@ -93,11 +93,6 @@ function App() {
               {" "}
               Projects  <br /> <br />
             </Link>
-
-            <div className="app-content-contact">
-              Contact 
-              <br />
-            </div>
           </nav>
         </div>
       </div>
