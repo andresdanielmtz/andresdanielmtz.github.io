@@ -6,4 +6,5 @@ It is designed to illustrate and show who I am as well as my portfolio: previous
 
 **To-do List:**
  - Redesign the [About Me] section. 
+ - Make it responsive to mobile 
 
