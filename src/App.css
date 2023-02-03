@@ -3,6 +3,7 @@ Body {
   /* 0c0c0c */
   color: white;
   font-family: 'Roboto', sans-serif;
+  cursor: url('./icons/mouse_pointer/even_more_resized.png'), auto; 
 }
 
 .app-frame {
@@ -62,6 +63,7 @@ a {
 
 a:hover {
   color: #5493db;
+  cursor: url('./icons/mouse_pointer/even_more_resized.png'), auto; 
 }
 
 app-content-text a:hover {

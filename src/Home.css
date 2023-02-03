@@ -5,9 +5,8 @@ Body {
 /* Change color when selecting text */
 ::selection {
   background-color: #ffffff;
-  color: #50549a;
+  color: #363636;
 }
-
 
 @font-face {
   font-family: HelveticaNow;
