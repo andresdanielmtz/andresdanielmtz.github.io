@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "6ac01ef865b25217dc2c",
-    "url": "/static/css/main.d2cc788a.chunk.css"
+    "revision": "6ddcbc6f3acbd41e134f",
+    "url": "/static/css/main.cc433907.chunk.css"
   },
   {
-    "revision": "6ac01ef865b25217dc2c",
+    "revision": "6ddcbc6f3acbd41e134f",
     "url": "/static/js/main.804a0ca3.chunk.js"
   },
   {
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/static/media/NeueMontreal-Bold.821f2668.otf"
   },
   {
-    "revision": "bd2e4477a7f1bd74a051f42dfa30474f",
+    "revision": "29bc4b3ab6a966d6e9d0bab9cfa83a91",
     "url": "/index.html"
   }
 ];
