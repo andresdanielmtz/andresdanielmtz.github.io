@@ -37,14 +37,13 @@ src:url("/src/font/NeueMontreal-Bold.otf" );
 }
 
 .project-box-img { 
-    width: 15em; 
+    width: 15em; /* 15 em height and width*/
     height: 15em;
     float: left;
-    background-size: cover;
+    background-size: cover; 
     /* Maintain image in div*/
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
 }
 .project-box-content { 
     margin-left: 15em; 
@@ -73,7 +72,7 @@ src:url("/src/font/NeueMontreal-Bold.otf" );
     }
     .project-box-content { 
         margin-left: 0.4em; 
-        margin-right: 0em;
+        margin-right: 0.4em;
 
     }
 
@@ -88,18 +87,27 @@ src:url("/src/font/NeueMontreal-Bold.otf" );
         margin-left: auto;
         margin-right: auto;
 
+
+
     }
 
     .project-box-description { 
         display: none
     }
+
     .project-box-date { 
         
         /* display below image*/
         position: relative;
         text-align: justify; 
         margin-top: 1em;
+        font-size: 0.92em;
 
+    }
+
+    .project-box-image { 
+
+        overflow: auto;
     }
 
 
