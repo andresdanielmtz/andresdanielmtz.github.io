@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "6ddcbc6f3acbd41e134f",
-    "url": "/static/css/main.cc433907.chunk.css"
+    "revision": "02b3f1f10314d305a880",
+    "url": "/static/css/main.00d2e0fe.chunk.css"
   },
   {
-    "revision": "6ddcbc6f3acbd41e134f",
+    "revision": "02b3f1f10314d305a880",
     "url": "/static/js/main.804a0ca3.chunk.js"
   },
   {
@@ -48,15 +48,15 @@ self.__precacheManifest = [
     "url": "/static/media/NasaSpaceApp2022.9f1fb293.png"
   },
   {
-    "revision": "96976e7e3b88662d3531fb76f7f576a7",
-    "url": "/static/media/HelveticaNow.96976e7e.ttf"
-  },
-  {
     "revision": "821f26682638deba9a0945dc329a294a",
     "url": "/static/media/NeueMontreal-Bold.821f2668.otf"
   },
   {
-    "revision": "29bc4b3ab6a966d6e9d0bab9cfa83a91",
+    "revision": "96976e7e3b88662d3531fb76f7f576a7",
+    "url": "/static/media/HelveticaNow.96976e7e.ttf"
+  },
+  {
+    "revision": "fefe75466a52ffd5316e5da365af46c5",
     "url": "/index.html"
   }
 ];
