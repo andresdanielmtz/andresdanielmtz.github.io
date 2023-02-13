@@ -20,9 +20,7 @@ const Projects = () => {
             date="December 2022 - January 2023"
             projectUrl="https://github.com/andresdanielmtz/TreesOfKnowledge"
           >
-            Developed an application on SwiftUI that focuses on University
-            Students discovering and learning about the specific plants and
-            creatures that habit their own campus.
+            QR's Registration iOS App that focuses on trees, nature and its representation and importance among University Students.
           </ProjectTemplate>
           <ProjectTemplate
             title="Medical Data Storage System Mock-Up, C++"
@@ -30,9 +28,7 @@ const Projects = () => {
             imgDir={MedicalMockUp}
             projectUrl = "https://github.com/andresdanielmtz/TC1033"
           >
-            Collaborated in pairs to develop a prototype of a Medical Data Storage
-            System. Based on the input of the patient, the system 
-            detects if the patient is considered "At risk" of it has symptoms related to COVID-19.
+            Medical Data Storage System made in C++. Based on the input of the patient, the system detects if the patient is considered "At risk" of it has symptoms related to COVID-19.
           </ProjectTemplate>
           <ProjectTemplate
             title="NASA Space App Challenge, Python"
@@ -40,8 +36,8 @@ const Projects = () => {
             imgDir = {NASASpaceApp2022}
             projectUrl = "https://github.com/andresdanielmtz/The-Webb-Interactive-Project-"
           >
-            Collaborated in team to create an entry to the NASA Space Apps Challenge Hackathon. 
-            In this entry we developed a videogame that shows the different parts and capabilities of the NASA's James Webb Telescope.  
+            NASA Space Apps Challenge Entry 2022
+            Videogame that shows the different parts and capabilities of the NASA's James Webb Telescope.
         </ProjectTemplate>
           <ProjectTemplate
             title="Projectile Kinematic Simulation Engine, MATLAB"
@@ -49,7 +45,7 @@ const Projects = () => {
             imgDir = {Volcano}
             projectUrl = "https://github.com/andresdanielmtz/Projectile-Kinematic-Simulation-Engine"
           >
-            Collaborated in teams to develop a real-time model of a Volcano eruption using physics, MATLAB and lots of math. 
+            Real-Time Model of a Volcano Eruption made in MATLAB with lots and lots of math involved. 
         </ProjectTemplate>
         </div>
       </div>
